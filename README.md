@@ -6,11 +6,11 @@ Look at `form.html`. It contains a form for pre-paid parking. It includes some s
 
 You will edit this HTML and write JavaScript to validate this form. When the "Make Reservation" button is clicked, you should check the values of each field and make sure they are valid. If not, you have to visually alert the user to that fact.
 
-Do this project in steps. Each step adds another layer of difficulty. Make sure and commit your code after each step, if not more often. Do not worry if you cannot complete all the steps!
+Do this project in steps. Each step adds another layer of difficulty. 😀 Do not worry if you cannot complete all the steps!
 
 ### Handling form submission
 
-When you have validated your form, you should be able to submit the form. Submit the form by sending a POST request to `https://momentum-server.glitch.me/parking`. Your request body needs to include a JSON object with a key `formData`. Normally when we submit a form we want to submit _all_ the data that we've collected, but let's keep this simple so you can focus on the validation. Just include the name your user has entered.
+When you have validated your form, you should be able to submit the form. Submit the form by sending a POST request to `https://momentum-server.glitch.me/parking`. 😀 Normally when we submit a form we want to submit _all_ the data that we've collected, but let's keep this simple so you can focus on the validation. Just include the name your user has entered.
 
 ```js
 fetch('https://momentum-server.glitch.me/parking', {
@@ -24,9 +24,9 @@ fetch('https://momentum-server.glitch.me/parking', {
     })
 ```
 
-But you must prevent the form from being submitted before it's been validated! To do that, use `event.preventDefault` inside your event listener for the form submission.
+😀But you must prevent the form from being submitted before it's been validated! To do that, use `event.preventDefault` inside your event listener for the form submission.
 
-When all the fields on the form are valid, you should send the POST request. When you receive a successful response from the server, you should display a message on the page telling the user that the form was submitted successfully. How this message looks is totally up to you.
+When all the fields on the form are valid, you should send the POST request. When you receive a successful response from the server, 🎲you should display a message on the page telling the user that the form was submitted successfully. How this message looks is totally up to you.
 
 ### Step 0
 
